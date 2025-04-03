@@ -113,6 +113,11 @@ h2 {
   margin-bottom: 20px;
 }
 
+/* Additional spacing for paragraphs */
+section p {
+  margin-bottom: 20px;
+}
+
 /* Projects */
 .project {
   background: white;
@@ -139,4 +144,22 @@ footer {
   width: 100%;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .landing-content {
+    max-width: 90%;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+  }
+
+  .project {
+    max-width: 100%;
+  }
+}
